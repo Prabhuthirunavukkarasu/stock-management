@@ -16,7 +16,7 @@ export class StockComponent implements OnInit {
   }
 
   addProduct(): void{
-    let product = {
+    const product = {
       "productName" : this.productName,
       "productQuantity": this.productQuantity,
       "productRate": this.productRate
